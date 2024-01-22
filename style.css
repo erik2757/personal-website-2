@@ -8,12 +8,10 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
     align-items: center;
     height: 5rem;
     width: 100vw;
-    background-color: rgb(128, 128, 128);
-    background-image: url(https://wallpapercave.com/wp/wp5575501.jpg);
+    background-color: rgba(16, 26, 100, 0.34);
     color: aliceblue;
 
 }
@@ -38,20 +36,19 @@ nav > a{
 main{
     min-height: 80vh;
     min-width: 80vw;
-    background-color: rgb(0, 0, 255);
+    background-color: rgba(44, 44, 50, 0.352);
     display: flexbox;
     justify-content: table-row;
     align-items: center;
     font-size: 2em;
-    background-image: url(https://i.pinimg.com/originals/93/11/85/93118536f1a0b9bc8c95f4f4a599c6cc.jpg);
-    background-size: cover;
+
 
 }
 
 aside{
     min-height: 80vh;
     min-width: 10vw;
-    background-color: rgb(0, 2, 144);
+    background-color: rgba(0, 2, 144, 0.085);
 }
 body > div {
     display: flex;
@@ -62,9 +59,7 @@ body > div {
 footer{
     min-height: 10vh;
     min-width: 100vw;
-    background-color: gray;
-    background-image: url(https://wallpapercave.com/wp/wp5575501.jpg);
-    background-size: cover;
+    background-color: rgba(16, 26, 100, 0.34);
 }
 
 .Me img{
@@ -111,7 +106,8 @@ footer{
     top: .5rem;
 }
 
-aside{
-    background-image: url(https://freedesignfile.com/upload/2017/02/hexagon-with-dark-blue-gradient-background-vector.jpg)
-}
 
+.dallas {
+    background-image:url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg) ;
+    background-size: cover;
+}
