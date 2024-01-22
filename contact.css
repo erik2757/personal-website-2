@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100vw;
+    background-color: rgba(16, 26, 100, 0.34);
+    color: aliceblue;
+
+}
+header > div{
+    display: flex;
+    align-items: center;
+
+}
+img{
+    height: 4rem;
+}
+h1{
+    margin-left: 1rem;
+}
+nav > a{
+    margin-right: 1rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+
+} 
+
+main{
+    min-height: 80vh;
+    min-width: 80vw;
+    background-color: rgba(37, 37, 54, 0.352);
+    display: flexbox;
+    justify-content: table-row;
+    align-items: center;
+    font-size: 2em;
+
+
+}
+
+aside{
+    min-height: 80vh;
+    min-width: 10vw;
+    background-color: rgba(0, 2, 144, 0.085);
+}
+body > div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    min-height: 10vh;
+    min-width: 100vw;
+    background-color: rgba(16, 26, 100, 0.34);
+}
+
+
+.foot{
+    text-align: center;
+    position: relative;
+    top: .5rem;
+}
+
+
+.dallas {
+    background-image:url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg) ;
+    background-size: cover;
+}
+
+.form{
+    background-color: rgba(118, 118, 120, 0.449);
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+input[type=submit]{
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+input[type=submit]:hover{
+    background-color: rgb(0, 255, 30);
+}
+
+input[type=text]{
+    width: 25rem;
+    height: 3rem;
+}
