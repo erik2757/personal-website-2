@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    height: 5rem;
+    width: 100vw;
+    background-color: rgb(128, 128, 128);
+    background-image: url(https://wallpapercave.com/wp/wp5575501.jpg);
+    color: aliceblue;
+
+}
+header > div{
+    display: flex;
+    align-items: center;
+
+}
+img{
+    height: 4rem;
+}
+h1{
+    margin-left: 1rem;
+}
+nav > a{
+    margin-right: 1rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+
+} 
+
+main{
+    min-height: 80vh;
+    min-width: 80vw;
+    background-color: rgb(0, 0, 255);
+    display: flexbox;
+    justify-content: table-row;
+    align-items: center;
+    font-size: 2em;
+    background-image: url(https://i.pinimg.com/originals/93/11/85/93118536f1a0b9bc8c95f4f4a599c6cc.jpg);
+    background-size: cover;
+
+}
+
+aside{
+    min-height: 80vh;
+    min-width: 10vw;
+    background-color: rgb(0, 2, 144);
+}
+body > div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    min-height: 10vh;
+    min-width: 100vw;
+    background-color: gray;
+    background-image: url(https://wallpapercave.com/wp/wp5575501.jpg);
+    background-size: cover;
+}
+
+.Me img{
+    min-height: 35rem;
+    float: left;
+    margin: 2rem 2rem;
+
+}
+
+
+.hometitle{
+    font-family: copperplate;
+    position: relative;
+    top: 2.5rem;
+    right: 1rem;
+    color: aliceblue;
+    
+}
+.hometext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    position: relative;
+    top: 4rem;
+    right:1rem;
+    color: aliceblue;
+    
+
+   
+}
+.quote {
+    position: relative;
+    top: 10rem;
+    right: 1rem;
+    font-size: 3rem;
+    font-family: papyrus;
+    color: aliceblue;
+
+
+}
+
+.foot{
+    text-align: center;
+    position: relative;
+    top: .5rem;
+}
+
+aside{
+    background-image: url(https://freedesignfile.com/upload/2017/02/hexagon-with-dark-blue-gradient-background-vector.jpg)
+}
+

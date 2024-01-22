@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    height: 5rem;
+    width: 100vw;
+    background-color: gray;
+    background-image: url(https://wallpapercave.com/wp/wp5575501.jpg);
+    color: aliceblue;
+}
+header > div{
+    display: flex;
+    align-items: center;
+   
+
+}
+img{
+    height: 4rem;
+}
+h1{
+    margin-left: 1rem;
+}
+nav > a{
+    margin-right: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    color: aliceblue;
+
+} 
+
+main{
+    min-height: 80vh;
+    min-width: 80vw;
+    background-color: blue;
+    background-image: url(https://i.pinimg.com/originals/93/11/85/93118536f1a0b9bc8c95f4f4a599c6cc.jpg);
+    background-size: cover;
+}
+
+aside{
+    min-height: 80vh;
+    min-width: 10vw;
+    background-color: rgb(0, 2, 144);
+}
+body > div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    min-height: 10vh;
+    min-width: 100vw;
+    background-color: gray;
+    background-image: url(https://wallpapercave.com/wp/wp5575501.jpg);
+    background-size: cover;
+}
+
+article {
+    display: flexbox;
+    justify-content: column;
+    
+}
+
+.Gym img{
+    float: right;
+    min-height: 15vh;
+    min-width: 15vw;
+
+    
+}
+
+.ps5 img{
+    float: left;
+    min-height: 15vh;
+    min-width: 15vw;
+}
+
+.travel img{
+    float: right;
+    min-height: 15vh;
+    min-width: 15vw;
+
+}
+h2{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 255, 242);
+}
+
+section{
+    color: aliceblue;
+}
+
+.hobby{
+    color: rgb(0, 255, 242);
+    text-align: center;
+}
+.foot{
+    text-align: center;
+    position: relative;
+    top: .5rem;
+}
+aside{
+    background-image: url(https://freedesignfile.com/upload/2017/02/hexagon-with-dark-blue-gradient-background-vector.jpg)
+}
