@@ -40,7 +40,7 @@ main{
     display: flexbox;
     justify-content: table-row;
     align-items: center;
-    font-size: 2em;
+    font-size: 2rem;
 
 
 }
@@ -63,8 +63,7 @@ footer{
 }
 
 .Me img{
-    min-height: 75vh;
-    min-width: 30vw;
+    min-height: 35rem;
     float: left;
     margin: 2rem 2rem;
 
@@ -81,7 +80,6 @@ footer{
 }
 .hometext{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.8rem;
     position: relative;
     top: 4rem;
     right:1rem;
@@ -121,6 +119,12 @@ footer{
     .dallas{
         display: flex;
         flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
     }
 
 }
