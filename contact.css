@@ -100,3 +100,14 @@ input[type=text]{
     width: 25rem;
     height: 3rem;
 }
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .dallas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

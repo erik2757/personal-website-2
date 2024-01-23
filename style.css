@@ -63,7 +63,8 @@ footer{
 }
 
 .Me img{
-    min-height: 35rem;
+    min-height: 75vh;
+    min-width: 30vw;
     float: left;
     margin: 2rem 2rem;
 
@@ -94,7 +95,7 @@ footer{
     top: 10rem;
     right: 1rem;
     font-size: 3rem;
-    font-family: papyrus;
+    font-family:papyrus;
     color: aliceblue;
 
 
@@ -111,3 +112,19 @@ footer{
     background-image:url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg) ;
     background-size: cover;
 }
+
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .dallas{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+    
+
+

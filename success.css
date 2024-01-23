@@ -78,3 +78,15 @@ footer{
 .gif img {
     height: 25rem;
 }
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dallas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

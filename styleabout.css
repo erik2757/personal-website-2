@@ -106,3 +106,15 @@ section{
     background-image:url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg) ;
     background-size: cover;
 }
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dallas{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
