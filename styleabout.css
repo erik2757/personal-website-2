@@ -118,3 +118,13 @@ section{
     }
 
 }
+#toggleBtn{ 
+    cursor: pointer;
+    margin-right: 1rem;
+}
+body.night-mode {
+    background-color: #333;
+    color: #fff;
+    background-image: url(https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1581186563/The_Dallas_Skyline_from_Reuinion_Tower_useblh.jpg);
+    background-size: cover;
+  }

@@ -1,134 +1,130 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5rem;
-    width: 100vw;
-    background-color: rgba(16, 26, 100, 0.34);
-    color: aliceblue;
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100vw;
+  background-color: rgba(16, 26, 100, 0.34);
+  color: aliceblue;
 }
-header > div{
-    display: flex;
-    align-items: center;
-
+header > div {
+  display: flex;
+  align-items: center;
 }
-img{
-    height: 4rem;
+img {
+  height: 4rem;
 }
-h1{
-    margin-left: 1rem;
+h1 {
+  margin-left: 1rem;
 }
-nav > a{
-    margin-right: 1rem;
-    color: aliceblue;
-    font-size: 1.5rem;
-
-} 
-
-main{
-    min-height: 80vh;
-    min-width: 80vw;
-    background-color: rgba(44, 44, 50, 0.352);
-    display: flexbox;
-    justify-content: table-row;
-    align-items: center;
-    font-size: 2rem;
-
-
+nav > a {
+  margin-right: 1rem;
+  color: aliceblue;
+  font-size: 1.5rem;
 }
 
-aside{
-    min-height: 80vh;
-    min-width: 10vw;
-    background-color: rgba(0, 2, 144, 0.085);
+main {
+  min-height: 80vh;
+  min-width: 80vw;
+  background-color: rgba(44, 44, 50, 0.352);
+  display: flexbox;
+  justify-content: table-row;
+  align-items: center;
+  font-size: 2rem;
+}
+
+aside {
+  min-height: 80vh;
+  min-width: 10vw;
+  background-color: rgba(0, 2, 144, 0.085);
 }
 body > div {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
-footer{
-    min-height: 10vh;
-    min-width: 100vw;
-    background-color: rgba(16, 26, 100, 0.34);
+footer {
+  min-height: 10vh;
+  min-width: 100vw;
+  background-color: rgba(16, 26, 100, 0.34);
 }
 
-.Me img{
-    min-height: 35rem;
-    float: left;
-    margin: 2rem 2rem;
-
+.Me img {
+  min-height: 35rem;
+  float: left;
+  margin: 2rem 2rem;
 }
 
-
-.hometitle{
-    font-family: copperplate;
-    position: relative;
-    top: 2.5rem;
-    right: 1rem;
-    color: aliceblue;
-    
+.hometitle {
+  font-family: copperplate;
+  position: relative;
+  top: 2.5rem;
+  right: 1rem;
+  color: aliceblue;
 }
-.hometext{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    top: 4rem;
-    right:1rem;
-    color: aliceblue;
-    
-
-   
+.hometext {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  top: 4rem;
+  right: 1rem;
+  color: aliceblue;
 }
 .quote {
-    position: relative;
-    top: 10rem;
-    right: 1rem;
-    font-size: 3rem;
-    font-family:papyrus;
-    color: aliceblue;
-
-
+  position: relative;
+  top: 10rem;
+  right: 1rem;
+  font-size: 3rem;
+  font-family: papyrus;
+  color: aliceblue;
 }
 
-.foot{
-    text-align: center;
-    position: relative;
-    top: .5rem;
+.foot {
+  text-align: center;
+  position: relative;
+  top: 0.5rem;
 }
-
 
 .dallas {
-    background-image:url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg) ;
-    background-size: cover;
+  background-image: url(https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg);
+  background-size: cover;
 }
 
-@media screen and (max-width:600px) {
-    header{
-        display: flex;
-        flex-direction: column;
-    }
-    .dallas{
-        display: flex;
-        flex-direction: column;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
-    }
-
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .dallas {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
-    
+body.night-mode {
+  background-color: #333;
+  color: #fff;
+  background-image: url(https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1581186563/The_Dallas_Skyline_from_Reuinion_Tower_useblh.jpg);
+  background-size: cover;
+}
 
+/* Additional styles for night mode */
+.hobby {
+  color: #fff; /* Example: change text color for hobbies section */
+}
 
+#toggleBtn{ 
+    cursor: pointer;
+    margin-right: 1rem;
+}
