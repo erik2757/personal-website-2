@@ -60,6 +60,7 @@ footer {
   min-height: 35rem;
   float: left;
   margin: 2rem 2rem;
+  border-radius: 5%;
 }
 
 .hometitle {

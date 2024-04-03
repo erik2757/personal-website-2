@@ -60,6 +60,7 @@ footer{
 article {
     display: flexbox;
     justify-content: column;
+    font-size: 1.5rem;
     
 }
 
