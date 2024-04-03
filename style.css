@@ -34,12 +34,15 @@ main {
   min-height: 80vh;
   min-width: 80vw;
   background-color: rgba(44, 44, 50, 0.352);
-  display: flexbox;
+  display: flex;
   justify-content: table-row;
   align-items: center;
   font-size: 2rem;
 }
 
+article{ 
+    margin-top: -15rem;
+}
 aside {
   min-height: 80vh;
   min-width: 10vw;
